@@ -1,7 +1,7 @@
 //import navbar, nav, container from react bootstrap and fashoppingcart, fauser from react-icons/fa
 import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { FaCog, FaShoppingCart, FaUser } from 'react-icons/fa'
-import logo from '../assets/logo.jpg'
+import logo from '/assets/logo.jpg'
 
 const Header = () => {
   return (
