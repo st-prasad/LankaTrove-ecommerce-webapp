@@ -1,4 +1,4 @@
-const products = [
+const Data = [
     {
       _id: '1',
       name: 'Cinnamon Stick Bundle',
@@ -79,5 +79,5 @@ const products = [
     },
   ];
   
-  export default products;
+  export default Data;
   
