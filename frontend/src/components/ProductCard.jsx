@@ -1,17 +1,20 @@
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './productCard.css'; // Import your additional CSS file
 
 const ProductCard = ({productData}) => {
   return (
     <Card className="product-card my-3 p-3">
-      <a href="#" className="product-link">
+      <Link to={'/product/${productData.id}'} className="product-link">
+       {/* create a Link */}
+       
       <Card.Img
         variant="top"
         src={productData.image}
         alt={productData.name}
         className="product-image"
       />
-      </a>
+      </Link>
       
       <Card.Body>
         <Card.Title as='div' className="product-name">{productData.name}</Card.Title>

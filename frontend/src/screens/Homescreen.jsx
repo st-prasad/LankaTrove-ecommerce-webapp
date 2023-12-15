@@ -6,7 +6,7 @@ import productsData from "../productsData";
 const Homescreen = () => {
   return (
     <Container>
-      <h1>Products</h1>
+      <h3>Products</h3>
       <Row>
         {/* <Col sm={12} md={6} lg={4} xl={3}> */}
         {productsData.map((productData) => (
