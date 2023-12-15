@@ -1,5 +1,6 @@
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Rating from './Rating';
 import './productCard.css'; // Import your additional CSS file
 
 const ProductCard = ({productData}) => {
@@ -21,6 +22,9 @@ const ProductCard = ({productData}) => {
         {/* The as prop in React Bootstrap allows you to customize the type of HTML element used by a specific Bootstrap component. */}
         <Card.Text as='div' className="product-description">{productData.description}</Card.Text>
         <Card.Text as='h3' className="product-price">${productData.price}</Card.Text>
+        <div>
+          <Rating value={productData.rating} text={`total reviews - ${productData.numReviews}`} />
+        </div>
       </Card.Body>
     </Card>
   //fix props-validation errors using prop-types' library
