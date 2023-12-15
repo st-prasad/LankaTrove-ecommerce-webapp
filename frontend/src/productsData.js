@@ -22,8 +22,7 @@ const Data = [
       category: 'Tea',
       price: 9.99,
       countInStock: 20,
-      rating: 4.5,
-      numReviews: 8,
+      rating: 3.5,
     },
     {
       _id: '3',
@@ -66,7 +65,7 @@ const Data = [
     },
     {
       _id: '6',
-      name: 'Cinnamon Scented Candle Set',
+      name: 'Cinnamon candle set',
       image: '/images/placeholder.jpg',
       description:
         'Set the mood with our cinnamon scented candle set. Each candle is hand-poured with natural wax, releasing a warm and inviting cinnamon fragrance for a cozy atmosphere.',

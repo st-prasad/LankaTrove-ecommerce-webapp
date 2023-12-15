@@ -1,0 +1,27 @@
+/* .rating {
+    display: inline-block;
+    font-size: 1rem;
+    color: #888;
+} */
+
+.rating .rating-icon {
+    display: inline-block;
+    margin: 0 2px;
+    /* color: rgb(218, 121, 121); Add red color to icons */
+    color: #B0BD42; /* Add red color to icons */
+}
+
+.rating-star:hover,
+.rating-star:focus {
+    color: #f00; /* Change color on hover and focus */
+}
+
+.rating-star-filled {
+    color: #f00; /* Add red color to filled icons */
+}
+
+.rating-text {
+    display: inline-block;
+    margin-left: 5px;
+    color: #888;
+}
