@@ -72,7 +72,7 @@ const Data = [
       brand: 'Aromatherapy Delights',
       category: 'Home Decor',
       price: 19.99,
-      countInStock: 18,
+      countInStock: 0,
       rating: 4.6,
       numReviews: 12,
     },

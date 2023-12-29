@@ -27,6 +27,19 @@ const Productscreen = () => {
         <div>
           <Rating value={productData.rating} reviewsCount={productData.numReviews} />
         </div>
+{/* add to cart section */}
+        <section className="addToCartDiv">
+        {productData.countInStock > 0 ? (
+          <div>
+            <Button className="btn btn-block" type="button">
+            Add to Cart
+          </Button>
+          </div>
+        ) : (
+          <div className="outOfStock">Out of Stock</div>
+        )}
+
+        </section>
     </Container>
 };
 export default Productscreen;
