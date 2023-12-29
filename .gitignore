@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .env
+
+# Custom exclusions
+temp-notes.txt

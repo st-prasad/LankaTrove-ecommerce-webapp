@@ -9,13 +9,15 @@ import {
 } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
-import Homescreen from "./screens/Homescreen.jsx";
+import Homescreen from "./screens/Homescreen";
+import Productscreen from "./screens/Productscreen";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
   <Route path="/" element={<App />}>
     <Route index={true} element={<Homescreen/>} /> 
     {/* rendering Homescreen only when "/" path is matched */}
+    <Route path="/product/:id" element={<Productscreen />} />
   </Route>)
 
 );

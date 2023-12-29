@@ -6,7 +6,7 @@ import './productCard.css'; // Import your additional CSS file
 const ProductCard = ({productData}) => {
   return (
     <Card className="product-card my-3 p-3">
-      <Link to={'/product/${productData.id}'} className="product-link">
+      <Link to={`/product/${productData._id}`} className="product-link">
        {/* create a Link */}
        
       <Card.Img
