@@ -1,0 +1,15 @@
+{
+  "name": "ecom-site",
+  "version": "1.0.0",
+  "description": "LankaTrove is a MERN ecommerce web app specializing in authentic Sri Lankan cinnamon and tea products.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
